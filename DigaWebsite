@@ -1,0 +1,491 @@
+<html>
+            
+        </body>
+    <head>
+        <title>Diga</title>
+        <style>
+
+            html {
+                overflow-x: hidden;
+                height: 100%;
+                width: 100%;
+            }
+
+            body {
+                overflow-x: hidden;
+                margin: 0;
+                height: 100%;
+                width: 100%;
+                overscroll-behavior: none;
+            }
+
+            .post {
+                position: relative;
+                left: 150px;
+                top: 10px;
+                right: 50px;
+                text-align: left;
+            }
+        
+            
+            img {
+                display: inline-block;
+                z-index: 1;
+                scale: 100%;
+                position: relative;
+                right: -1180px;
+                top: -435px;
+                border-radius: 10%;
+            }
+
+            .colored-box {
+                z-index: -1;
+                width: 1931px;
+                height: 518px;
+                right: -10px;
+                left: -25px;
+                bottom: -20px;
+                position: relative;
+                background-color: #FF7A7A;
+            }
+
+
+            .section1 {
+                text-align: left;
+                line-height: 1px;
+                position: relative;
+                top: -780px;
+                bottom: 60px;
+                left: 170px;
+                font-size: 60px;
+                font-weight: bold;
+                font: "Judson", serif;
+            }
+            
+            .text2 {
+                position: relative;
+                line-height: -1px;
+                top: -815px;
+                bottom: 50px;
+                left: 170px;
+                font-size: 60px;
+                font-weight: bold;
+                font: "Judson", serif;
+            }
+
+            .text3 {
+                text-align: left;
+                position: relative;
+                top: -885px; 
+                right: -185px;
+                font-size: 20px;
+                font: "Inter", sans-serif;
+            }
+
+            .section2 {
+                text-align: center;
+                position: relative;
+                top: -700px;
+                font-size: 27px;
+                font-weight: bold;
+                font: "Judson", sans-serif;
+            }
+
+            .graphicdes {
+                display: inline-block;
+                position: relative;
+                scale: 100%;
+                left: -900px;
+                top: -200px;
+            }
+
+            .illustrat {
+                display: inline-block;
+                position: relative;
+                scale: 100%;
+                top: -200px;
+                left: -540px;
+            }
+
+            .websiteapp {
+                display: inline-block;
+                position: relative;
+                scale: 100%;
+                top: -200px;
+                left: -200px;
+            }
+
+           .undergraph {
+            text-align: left;
+            position: relative;
+            top: -640px;
+            right: -297px;
+            font-size: 20px;
+            font: "Judson", sans-serif;
+           }
+           
+           .undill {
+            text-align: center;
+            position: relative;
+            top: -695px;
+            left: -25px;
+            font-size: 20px;
+            font: "Judson", sans-serif;
+           }
+
+           .unwa {
+            text-align: right;
+            position: relative;
+            top: -748px;
+            left: -240px;
+            font-size: 20px;
+            font: "Judson", sans-serif;
+           }
+
+           .redbox {
+            z-index: -1;
+            width: 1930px;
+            height: 518px;
+            position: relative;
+            top: -650px;
+            left: -20px;
+            background-color: #FF7A7A;
+           }
+
+           .disc {
+            display: inline-block;
+            z-index: 1;
+            scale: 100%;
+            position: relative;
+            top: -600px;
+            left: -650px;
+           }
+
+           .bannertext {
+            text-align: right;
+            position: relative;
+            top: -1270px;
+            left: -880px;
+            font-size: 27px;
+            font: "Judson", sans-serif;
+           }
+
+           .dpage {
+            text-align: center;
+            position: relative;
+            top: -1300px;
+            right: -160px;
+            font-size: 20px;
+            font: "Inter", sans-serif;
+           }
+
+           .frpage {
+            text-align: center;
+            position: relative;
+            top: -1000px;
+            font-size: 27px;
+            font: "Judson", sans-serif;
+           }
+
+           .fdesc {
+            text-align: center;
+            position: relative;
+            top: -1020px;
+            font-size: 20px;
+            font: "Inter", sans-serif;
+           }
+
+           .frpic {
+            display: inline-block;
+            position: relative;
+            top: -500px;
+            left: -410px;
+            scale: 100%;
+           }
+
+           .box4 {
+            position: relative;
+            width: 1930px;
+            height: 600px;
+            top: -800px;
+            background-color: #FF7A7A;
+           }
+           
+
+           .context {
+            text-align: center;
+            position: relative;
+            top: -1240px;
+            font-size: 27px;
+            font: "Judson" sans-serif;
+           }
+
+           .work {
+            text-align: center;
+            position: relative;
+            top: -1250px;
+            font-size: 21px;
+            font: "Inter", sans-serif;
+           }
+
+           .top {
+            text-align: center;
+            position: relative;
+            top: -900px;
+            font-size: 27px;
+            font: "Judson", sans-serif;
+           }
+
+           .label {
+            text-align: left;
+            position: relative;
+            top: -800px;
+            left: 550px;
+            font-size: 20px;
+            font: "Judson", sans-serif;
+           }
+
+           .gdlab {
+            text-align: center;
+            line-height: 3;
+            position: relative;
+            top: -810px;
+            left: -300px;
+            font-size: 21px;
+            font: "Inter", sans-serif;
+           }
+
+           .second {
+            text-align: right;
+            position: relative;
+            top: -1325px;
+            left: -500px;
+            font-size: 20px;
+            font: "Judson", sans-serif;
+           }
+
+           .anilab {
+            text-align: center;
+            line-height: 3;
+            position: relative;
+            left: 330px;
+            top: -1330px;
+            font-size: 21px;
+            font: "Inter", sans-serif;
+           }
+
+           .third {
+            text-align: center;
+            position: relative;
+            top: -1100px;
+            left: -300px;
+            font-size: 20px;
+            font: "Judson", sans-serif;
+           }
+
+           .gamelab {
+            text-align: center;
+            line-height: 3;
+            position: relative;
+            top: -1110px;
+            left: -300px;
+            font-size: 20px;
+            font: "Inter", sans-serif;
+           }
+
+            .fourth {
+            text-align: center;
+            position: relative;
+            top: -1420px;
+            left: 340px;
+            font-size: 20px;
+            font: "Judson", sans-serif;
+            }
+
+            .prodlab {
+            text-align: center;
+            line-height: 3;
+            position: relative;
+            top: -1425px;
+            left: 340px;
+            font-size: 21px;
+            font: "Inter", sans-serif;
+            }
+
+            .creative {
+                display: inline-block;
+                position: relative;
+                scale: 120%;
+                top: 0px;
+                left: -650px;
+            }
+
+
+           .rbox {
+            z-index: -1;
+            width: 1932px;
+            height: 600px;
+            position: relative;
+            left: -30px;
+            top: 800px;
+            background-color: #FF7A7A;
+           }
+
+           .final {
+            text-align: center;
+            position: relative;
+            top: 450px;
+            font-size: 40px;
+            font: "Judson", sans-serif;
+           }
+
+           .unfinal {
+            text-align: center;
+            position: relative;
+            top: 410px;
+            font-size: 20px;
+            font: "Inter", sans-serif;
+           }
+
+
+        </style>
+    </head>
+    <body>
+
+        <blockquote style="max-height: 200px;"></blockquote>
+
+        <div class="post">
+            <h1>Diga.</h1>
+        </div>
+       
+        <div class="colored-box"></div>
+
+        <div class="image1">
+            <img src="images/desk.jpg">
+        </div>
+        
+        <div class="section1">
+            <h2>Your Creations</h2>
+        </div>
+        <div class="text2">
+            <h2>Your Way</h2>
+        </div>
+        <div class="text3">
+            <p>A place for artists to come together, discover, and share their work.</p>
+        </div>
+        
+        <div class="section2">
+            <h2>Popular Categories</h2>
+        </div>
+    
+        <div class="graphicdes">
+            <img src="images/gd.jpg">
+        </div>
+        
+       <div class="illustrat">
+            <img src="images/illu.jpg">
+       </div>
+       
+        <div class="websiteapp">
+            <img src="images/webapp.jpg">
+        </div>
+       
+       <div class="undergraph">
+        <h3>Graphic Design</h3>
+       </div>
+
+       <div class="undill">
+        <h3>Illustration</h3>
+       </div>
+
+        <div class="unwa">
+            <h3>Web & App Development</h3>
+        </div>
+        
+        <div class="redbox"></div>
+        
+        <div class="disc">
+            <img src="images/discover.jpg">
+        </div>
+
+        <div class="bannertext">
+            <h2>Discover</h2>
+        </div>
+        
+        <div class="dpage">
+            <p>Find artist's from around the world and explore their projects.</p>
+        </div>
+        
+        <div class="frpage">
+            <h2>Freelancing Made Easy</h2>
+        </div>
+
+        <div class="fdesc">
+            <p>Showcase your designs and we'll do the rest.<br> We bring freelance jobs to you, where you can discover opportunities to<br> create your next project.</p>
+        </div>
+
+        <div class="frpic">
+            <img src="images/freelance.jpg">
+        </div>
+        
+       <div class="box4"></div>
+
+       <div class="context">
+        <h2>Network</h2>
+       </div>
+       
+       <div class="work">
+        <p>Start conversations with artists and employers.<br> Share and discuss projects, ideas, and information.<br> Grow your network by communicating with others through designs<br>you create!</p>
+       </div>
+
+       <div class="top">
+        <h2>Categories</h2>
+       </div>
+
+       <div class="label">
+        <h2>Graphic Design</h2>
+       </div>
+
+       <div class="gdlab">
+        <p>Illustration<br>Logo Design<br>Brand Design<br>Typography<br>Book Cover Design<br>Editorial Design<br>Photography</p>
+       </div>
+
+       <div class="second">
+        <h2>Animation & Video</h2>
+       </div>
+
+       <div class="anilab">
+        <p>Motion Graphics<br>2D Animation<br>3D Animation<br>GIFs<br>Film<br>Video Editing</p>
+       </div>
+
+       <div class="third">
+        <h2>Gaming</h2>
+       </div>
+
+       <div class="gamelab">
+        <p>Game Art<br>2D Modeling<br>3D Moeling<br>Game Development</p>
+       </div>
+
+       <div class="fourth">
+        <h2>Product Design</h2>
+       </div>
+
+       <div class="prodlab">
+        <p>Web Design<br>Web Development<br>App Design<br>App Development<br>UX/UI Design<br>Packaging Design</p>
+       </div>
+
+        <div class="creative">
+            <img src="images/creative.jpg">
+        </div>
+    
+        <div class="rbox"></div>
+        
+        <div class="final">
+                <h2>Diga.</h2>
+        </div>
+    
+        <div class="unfinal">
+                <p>Miami, FL<br>United States</p>
+        </div>
+    </body>
+    </html>
